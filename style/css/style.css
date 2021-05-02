@@ -1,0 +1,128 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size:  3rem;
+}
+h2 {
+    font-size:  2.3rem; 
+}
+h3 {
+    font-size:  1.8rem;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: yellow
+}
+.social-section {
+    background: url('../images/wave%201.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;    
+}
+.social-section .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+}
+.social-section .top .txt h2 {
+    width: 72%;
+    color: #1B073C;
+}
+.social-section .top .txt p {
+    width: 74%;
+    font-size: 16px;
+    color: #00000094;
+}
+
+.social-section .top .rating .rate-section {
+    width: 70%;
+    background: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+    margin: 10px;
+}
+.social-section .top .rating .rate-section:nth-child(2) {
+    margin: 10px 40px;
+}
+
+.social-section .top .rating .rate-section:nth-child(3) {
+    margin: 10px 80px;
+}
+
+.social-section .top .rating .rate-section .img img {
+    width: 140px;
+    display: flex;
+}
+.bottom .cards {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr 2fr;
+    position: absolute;
+    top: 55%;
+    width: 65%
+}
+.profile-card {
+    width: 376.73px;
+    height: 212.14px;
+    background: #1B073C;
+    border-radius: 10px;
+}
+.profile-card .img-head img {
+    width: 47.23px;
+    height: 42.24px;
+}
+.profile-card .head {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+.profile-card .head .img-head {
+    display: flex;
+    margin-right: .5rem;
+}
+.profile-card .head .txt-head p:first-child {
+    font-weight: 500;
+    font-size: 14px;
+    color: #f7f7f7;
+}
+
+.profile-card .head .txt-head p:last-child {
+    font-weight: 300;
+    color: #00000094;
+    font-size: 12px;
+    margin-top: -5px;
+    color: #f7f7f7;
+    text-transform: lowercase;
+    
+} 
+.profile-card .center {
+    max-width: 80%;
+    margin: auto;
+}
+
+.profile-card .txt-bottom {
+    font-size: 14px;
+    font-weight: 100;
+    color: #f7f7f7
+}
